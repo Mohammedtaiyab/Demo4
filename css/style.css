@@ -46,8 +46,11 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
 }
 
-.is-sticky .top2{padding-top: 27px; padding-bottom: 14px;}
-
+.is-sticky{padding-top: 27px; padding-bottom: 14px;}
+.is-sticky .top2{
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
 header{float: left; position: relative; z-index: 31;}
 
 
